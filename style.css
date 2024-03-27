@@ -73,21 +73,21 @@ body {
 }
 .header .icons .fa-search {
     position: relative;
-    left: 1.5rem;
+    left: 2.5rem;
     font-size: 1.8rem;
     color: #fff;
     cursor: pointer;
   }
 .header .icons .fa-shopping-cart {
     position: relative;
-    left: 1.5rem;
+    left: 2.5rem;
     font-size: 1.8rem;
     color: #fff;
     cursor: pointer;
   }
 .header .icons .fa-bars {
     position: relative;
-    left: 1.5rem;
+    left: 2.5rem;
     font-size: 1.8rem;
     color: #fff;
     cursor: pointer;
