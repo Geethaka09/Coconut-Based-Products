@@ -90,7 +90,4 @@ body {
     content: "\f00d";
     color: var(--main-color);
   }
-.search-form.active ~ .icons .fa-shopping-cart::before {
-    content: "\f00d";
-    color: var(--main-color);
-  }
+
