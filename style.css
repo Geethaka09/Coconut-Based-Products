@@ -108,7 +108,8 @@ body {
     height: 5rem;
     display: flex;
     align-items: center;
-
+    transform: scaleY(0);
+    transform-origin: top;
 }
 .header .search-form input{
     height: 80%;
@@ -124,5 +125,7 @@ body {
     margin-right: 1,5rem;
     color:var(--black);
 }
-
+.header .search-form label:hover{
+    color:var(--main-color)
+}
 
