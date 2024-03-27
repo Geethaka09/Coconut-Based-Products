@@ -78,8 +78,19 @@ body {
     color: #fff;
     cursor: pointer;
   }
+.header .icons .fa-shopping-cart {
+    position: relative;
+    left: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+  }
   
 .search-form.active ~ .icons .fa-search::before {
+    content: "\f00d";
+    color: var(--main-color);
+  }
+.search-form.active ~ .icons .fa-shopping-cart::before {
     content: "\f00d";
     color: var(--main-color);
   }
