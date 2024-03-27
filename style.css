@@ -44,3 +44,16 @@ html::-webkit-scrollbar-thumb {
 body {
     background-color: var(--bg);
 }
+.header{
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top:0%; left: 0%; right: 0%;
+    z-index: 1000;
+}
+.header .logo img{
+    height: 6rem;
+}
