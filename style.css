@@ -92,6 +92,11 @@ body {
     color: #fff;
     cursor: pointer;
   }
+.header .icons .fa-search,
+.header .icons .fa-shopping-cart,
+.header .icons .fa-bars {
+    margin-right: 1rem;
+}
   
 .search-form.active ~ .icons .fa-search::before {
     content: "\f00d";
