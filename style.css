@@ -30,12 +30,12 @@
     width: .8rem;
   }
   html:: ::-webkit-scrollbar-track{
-    background: transparent;
+    background-color: transparent;
   }
   html::-webkit-scrollbar-thumb{
-    background: #fff;
+    background-color: #fff;
     border-radius: 5rem;
   }
   body{
-    background: var(--bg);
+    background-color: var(--bg);
   }
