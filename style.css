@@ -98,8 +98,5 @@ body {
     margin-right: 1rem;
 }
   
-.search-form.active ~ .icons .fa-search::before {
-    content: "\f00d";
-    color: var(--main-color);
-  }
+
 
