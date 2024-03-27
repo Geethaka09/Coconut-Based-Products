@@ -85,6 +85,13 @@ body {
     color: #fff;
     cursor: pointer;
   }
+.header .icons .fa-bars {
+    position: relative;
+    left: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+  }
   
 .search-form.active ~ .icons .fa-search::before {
     content: "\f00d";
