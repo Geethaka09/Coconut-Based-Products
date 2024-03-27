@@ -111,8 +111,8 @@ body {
 
 }
 .header .search-form input{
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     font-size: 1.6rem;
     color: var(--black);
     padding: 1rem;
