@@ -126,7 +126,7 @@ body {
     color:var(--black);
 }
 .header .search-form label:hover{
-    color:var(--main-color)
+    color:var(--main-color);
 }
 
 
