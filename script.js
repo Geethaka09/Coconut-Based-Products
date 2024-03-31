@@ -1,6 +1,5 @@
-let navbar = document.querySelector('.navbar');
+let navbar = document.querySelector('.header .navbar');
 
-document.querySelector('#menu-btn').onclick = ()=>{
+document.querySelector('#menu-btn').onclick = () => {
     navbar.classList.toggle('active');
-
 }
