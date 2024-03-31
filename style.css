@@ -173,8 +173,8 @@ body {
         display: inline-block;
     }
     .header .navbar{
-        display: absolute;
-        top:100%; right:-100%;
+        position: absolute;
+        top:100%; right:0;
         background: #fff;
         width: 30rem;
         height: calc(100vh - 9.5rem);
