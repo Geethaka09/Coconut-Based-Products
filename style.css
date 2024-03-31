@@ -158,8 +158,8 @@ body {
 
 
 
-@media(max-width:991px){
-    html {
+@media (max-width:991px){
+    html{
         font-size:55%;
          
     }
@@ -168,7 +168,7 @@ body {
     }
 
 }
-@media(max-width:991px){
+@media (max-width:991px){
     #menu-btn{
         display: inline-block;
     }
@@ -177,9 +177,13 @@ body {
         top:100%; right:-100%;
         background: #fff;
         width: 30rem;
-        height: calc(100vh- 9.5rem);
+        height: calc(100vh - 9.5rem);
+    }
+    .header .navbar .active{
+        right: 0;
     }
     .header .navbar a{
+        color: var(--black);
         display: block;
         margin: 1.5rem;
         padding: .5rem;
