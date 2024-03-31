@@ -173,6 +173,7 @@ body {
         display: inline-block;
     }
     .header .navbar{
+        display: none;
         position: absolute;
         top:100%; right:-100%;
         background: #fff;
@@ -180,6 +181,7 @@ body {
         height: calc(100vh - 9.5rem);
     }
     .header .navbar .active{
+        display: block;
         right: 0%;
     }
     .header .navbar a{
