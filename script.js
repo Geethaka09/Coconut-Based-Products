@@ -1,7 +1,6 @@
-const navbar = document.querySelector('.navbar');
-const menuBtn = document.getElementById('#menu-btn');
+menuBtn = document.querySelector('#menu-btn');
 
-document.querySelector('#menu-btn').onclick = () => {
-    console.log("Menu button clicked");
-    navbar.classList.toggle('active');
+menuBtn.onclick = function() {
+    navBar=document.querySelector(".header .navbar");
+    navBar.classList.toggle('active');
 }

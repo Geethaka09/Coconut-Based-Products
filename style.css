@@ -57,16 +57,29 @@ body {
 .header .logo img{
     height: 6rem;
 }
-.header .navbar a{
+.header .navbar ul{
+    display: flex;
+   
+
+}
+.header .navbar ul li a{
+    display: block;
     margin: 0% 1rem;
     font-size: 1.6rem;
     color:#fff;
 
 }
-.header .navbar a:hover{
+.header .navbar ul li a:hover{
     color: var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
+}
+.header .navbar .active{
+    display: flex;
+}
+.header .navbar .active ul{
+    opacity: 1;
+
 }
 .header .icons div:hover{
     color:var(--main-color);
