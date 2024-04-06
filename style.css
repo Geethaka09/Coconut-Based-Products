@@ -111,7 +111,7 @@ body {
     margin-right: 1rem;
 }
 #menu-btn{
-    display: none;
+    display:flex;
 }
 .header .search-form{
     position: absolute;
