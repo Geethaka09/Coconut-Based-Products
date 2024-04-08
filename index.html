@@ -51,16 +51,16 @@
             <label for="search-box" class="fas fa-search"></label>
         </div>
     </header>
-    <script>menuBtn = document.querySelector('#menu-btn');
+    <script>
+        menuBtn.onclick = function () {
+        const navBar = document.querySelector(".header .navbar");
+        navBar.classList.toggle('active');
+        };
 
-        menuBtn.onclick = function() {
-            navBar=document.querySelector(".header .navbar");
-            navBar.classList.toggle('active');
-        }
-        document.getElementById('search-btn').addEventListener('click', function() {
-            var searchForm = document.getElementById('search-form');
-            searchForm.classList.toggle('active');
+    document.getElementById('search-btn').addEventListener('click', function () {
+        const searchForm = document.getElementById('search-form');
+        searchForm.classList.toggle('active');
         });
-        </script>
+     </script>
 </body>
 </html>
