@@ -51,6 +51,11 @@
             <label for="search-box" class="fas fa-search" id="close-search"></label>
         </div>
     </header>
-    <script src="script.js"></script>
+    <script>menuBtn = document.querySelector('#menu-btn');
+
+        menuBtn.onclick = function() {
+            navBar=document.querySelector(".header .navbar");
+            navBar.classList.toggle('active');
+        }</script>
 </body>
 </html>
