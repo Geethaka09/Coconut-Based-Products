@@ -122,6 +122,9 @@ body {
     transform: scaleY(0);
     transform-origin: top;
 }
+.header .search-form.active{
+    transform: scaleY(1);
+}
 .header .search-form input{
     height: 80%;
     width: 80%;

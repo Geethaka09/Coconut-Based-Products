@@ -40,15 +40,18 @@
         </div>
     </header>
     <script>
-        menuBtn.onclick = function () {
-        const navBar = document.querySelector(".header .navbar");
-        navBar.classList.toggle('active');
-        };
+        let navbar= document.querySelector('.navbar');
 
-    document.getElementById('#search-btn').addEventListener('click', function () {
-        const searchForm = document.getElementById('#search-form');
-        searchForm.classList.toggle('active');
-        });
+        documnet .querySelector('#menu-btn').onclick = () =>{
+            navbar.classList.toggle('active');
+        }
+       
+
+        let SearchForm= document.querySelector('.search-form');
+
+        documnet .querySelector('#search-btn').onclick = () =>{
+            SearchForm.classList.toggle('active');
+        }
      </script>
 </body>
 </html>
