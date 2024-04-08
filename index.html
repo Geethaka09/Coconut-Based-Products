@@ -46,9 +46,9 @@
             <div class="fas fa-search" id="search-btn"></div>
         </div>
         <!-- Add class "search-form" to the search container -->
-        <div class="search-form">
-            <input type="search" placeholder="Search" id="search-box">
-            <label for="search-box" class="fas fa-search" id="close-search"></label>
+        <div class="search-form" id="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
         </div>
     </header>
     <script>menuBtn = document.querySelector('#menu-btn');
@@ -56,6 +56,11 @@
         menuBtn.onclick = function() {
             navBar=document.querySelector(".header .navbar");
             navBar.classList.toggle('active');
-        }</script>
+        }
+        document.getElementById('search-btn').addEventListener('click', function() {
+            var searchForm = document.getElementById('search-form');
+            searchForm.classList.toggle('active');
+        });
+        </script>
 </body>
 </html>
