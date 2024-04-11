@@ -28,8 +28,8 @@ html {
     scroll-behavior: smooth;
 }
 .logo img {
-    width: 200px; 
-    height: 200px; 
+    width: fit-content; 
+    height: fit-content; 
 }
 
 html::-webkit-scrollbar {
