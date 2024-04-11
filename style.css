@@ -165,7 +165,7 @@ body {
     text-transform: uppercase;
     color: #fff;
     display: inline;
-
+    white-space: nowrap;
 }
 .home .content p{
     font-size: 1rem;
