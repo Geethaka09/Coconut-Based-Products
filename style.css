@@ -77,9 +77,9 @@ body {
 .header .navbar .active{
     display: flex;
 }
-.header .navbar .active{
+.header .navbar.active {
+    display: flex;
     opacity: 1;
-
 }
 .header .icons div:hover{
     color:var(--main-color);
@@ -110,7 +110,11 @@ body {
 .header .icons .fa-bars {
     margin-right: 1rem;
 }
-
+.header .icons .fa-search:hover,
+.header .icons .fa-shopping-cart:hover,
+.header .icons .fa-bars:hover {
+    color: var(--main-color);
+}
 .header .search-form{
     position: absolute;
     top: 115%; right: 7%;
