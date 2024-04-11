@@ -180,12 +180,22 @@ header .navbar .btn {
     transition: background-color 0.3s ease;
   }
   
-  .header .navbar .btn:hover {
+.header .navbar .btn:hover {
     background-color:var(--main-color); 
   }
+
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
 }
 
-
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
 
 
 
@@ -221,7 +231,7 @@ header .navbar .btn {
     section{
         padding: 2rem;
     }
-   
+}
 @media (max-width:991px){
     #menu-btn{
         display: inline-block;
@@ -264,4 +274,3 @@ header .navbar .btn {
         text-align: center;
      }
 }
-    
