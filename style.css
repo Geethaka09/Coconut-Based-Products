@@ -165,7 +165,7 @@ body {
     color: #eee;
     white-space: nowrap;
     text-align: justify;
-    height: 5.6rem; /* Adjust the value to control the height in pixels */
+    height: 10rem; /* Adjust the value to control the height in pixels */
     overflow: hidden;
 }
 header .navbar .btn {
