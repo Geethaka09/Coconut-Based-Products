@@ -27,6 +27,10 @@ html {
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
 }
+.logo img {
+    width: 750px; 
+    height: auto; 
+}
 
 html::-webkit-scrollbar {
     width: .8rem;
