@@ -214,24 +214,7 @@ header .navbar .btn {
     section{
         padding: 2rem;
     }
-    .header .search-form{
-        width: 90%;
-        right: 2rem;
-    }
-    .home{
-        background-position: left;
-        justify-content: left;
-
-    }
-    .home .content h3{
-       font-size: 4.5rem;
-       text-align: center;
-    }
-    .home .content p{
-        font-size: 2rem;
-        text-align: center;
-     }
-}
+   
 @media (max-width:991px){
     #menu-btn{
         display: inline-block;
@@ -256,6 +239,22 @@ header .navbar .btn {
         font-size: 2rem;
 
     }
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+    .home{
+        background-position: left;
+        justify-content: left;
 
+    }
+    .home .content h3{
+       font-size: 4.5rem;
+       text-align: center;
+    }
+    .home .content p{
+        font-size: 2rem;
+        text-align: center;
+     }
 }
     
