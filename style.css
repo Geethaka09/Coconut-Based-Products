@@ -145,7 +145,7 @@ body {
 }
 .home .content{
     max-width: 60rem;
-
+    text-align: center;
 }
 .home .content h3{
     font-size: 5rem;
