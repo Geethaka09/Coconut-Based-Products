@@ -161,10 +161,19 @@ body {
 
 }
 .home .content h3{
-    max-width: 60rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
 
 }
+.home .content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
 
+}
 
 
 
