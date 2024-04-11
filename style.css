@@ -160,7 +160,7 @@ body {
 .home .content p {
     font-size: 1.5rem;
     font-weight: lighter;
-    line-height: 1.4; /* Adjust the value to control the number of lines */
+    line-height: 3; /* Adjust the value to control the number of lines */
     padding-left: 20px;
     color: #eee;
     white-space: nowrap;
