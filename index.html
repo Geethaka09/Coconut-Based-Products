@@ -63,18 +63,17 @@
 
 
     <script>
-        let navbar= document.querySelector('.navbar');
-
-        documnet .querySelector('#menu-btn').onclick = () =>{
+        let navbar = document.querySelector('.navbar');
+        let menuBtn = document.querySelector('#menu-btn');
+        menuBtn.addEventListener('click', function() {
             navbar.classList.toggle('active');
-        }
-       
-
-        let SearchForm= document.querySelector('.search-form');
-
-        documnet .querySelector('#search-btn').onclick = () =>{
-            SearchForm.classList.toggle('active');
-        }
-     </script>
+        });
+    
+        let searchForm = document.querySelector('.search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        searchBtn.addEventListener('click', function() {
+            searchForm.classList.toggle('active');
+        });
+    </script>
 </body>
-</html>
+</html>  
