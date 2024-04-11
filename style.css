@@ -84,26 +84,13 @@ body {
 .header .icons div:hover{
     color:var(--main-color);
 }
-.header .icons .fa-search {
+.header .icons .fas{
     position: relative;
     left: 0.5rem;
     font-size: 1.8rem;
     color: #fff;
     cursor: pointer;
-  }
-.header .icons .fa-shopping-cart {
-    position: relative;
-    left: 0.5rem;
-    font-size: 1.8rem;
-    color: #fff;
-    cursor: pointer;
-  }
-.header .icons .fa-bars {
-    position: relative;
-    left: 0.5rem;
-    font-size: 1.8rem;
-    color: #fff;
-    cursor: pointer;
+ 
   }
 .header .icons .fa-search,
 .header .icons .fa-shopping-cart,
@@ -168,7 +155,7 @@ body {
     white-space: nowrap;
 }
 .home .content p{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
