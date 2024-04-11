@@ -163,7 +163,7 @@ body {
     line-height: 1.4; /* Adjust the value to control the number of lines */
     padding-left: 20px;
     color: #eee;
-    white-space: nowrap;
+   
     text-align: justify;
     height: 10rem; /* Adjust the value to control the height in pixels */
     width:fit-content;
