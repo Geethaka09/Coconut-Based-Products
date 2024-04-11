@@ -160,12 +160,13 @@ body {
 .home .content p {
     font-size: 1.5rem;
     font-weight: lighter;
-    line-height: 3; /* Adjust the value to control the number of lines */
+    line-height: 1.4; /* Adjust the value to control the number of lines */
     padding-left: 20px;
     color: #eee;
     white-space: nowrap;
     text-align: justify;
     height: 10rem; /* Adjust the value to control the height in pixels */
+    width:fit-content;
     overflow: hidden;
 }
 header .navbar .btn {
