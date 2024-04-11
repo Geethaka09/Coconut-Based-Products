@@ -153,6 +153,7 @@ body {
     color: #fff;
     display: inline;
     white-space: nowrap;
+    text-align: center;
 }
 .home .content p{
     font-size: 1.5rem;
@@ -161,6 +162,7 @@ body {
     padding: 1rem 0;
     color: #eee;
     white-space: nowrap;
+    text-align: center;
 }
 header .navbar .btn {
     display: inline-block;
