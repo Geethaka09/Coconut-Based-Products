@@ -164,7 +164,7 @@ body {
     padding-left: 5rem;
     color: #eee;
     white-space: nowrap;
-   
+    text-align: justify;
 }
 header .navbar .btn {
     display: inline-block;
