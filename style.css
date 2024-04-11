@@ -160,7 +160,8 @@ body {
     line-height: 1.8;
     padding: 1rem 0;
     color: #eee;
-
+    white-space: nowrap;
+}
 }
 
 
