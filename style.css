@@ -205,7 +205,7 @@ body {
     #menu-btn{
         display: inline-block;
     }
-    .header .navbar ul{
+    .header .navbar{
         display: none;
         position: absolute;
         top:100%; right:-100%;
@@ -217,7 +217,7 @@ body {
         display: block;
         right: 0%;
     }
-    .header .navbar ul li a{
+    .header .navbar a{
         color: var(--black);
         display: block;
         margin: 1.5rem;
