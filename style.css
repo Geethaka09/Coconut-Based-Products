@@ -153,7 +153,7 @@ body {
     font-weight: bold;
     color: #fff;
     display: inline;
-   
+    white-space: nowrap;
     text-align: center;
 }
 .home .content p{
@@ -162,7 +162,7 @@ body {
     line-height: 1.8;
     padding: 1rem 0;
     color: #eee;
-   
+    white-space: nowrap;
     text-align: center;
 }
 header .navbar .btn {
