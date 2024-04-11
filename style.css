@@ -162,6 +162,20 @@ body {
     color: #eee;
     white-space: nowrap;
 }
+header .navbar .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--main-color); 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-radius: 0.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header .navbar .btn:hover {
+    background-color: #333; 
+  }
 }
 
 
