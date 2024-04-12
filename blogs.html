@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURECOCO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="purecoco.png" alt="PURECOCO Logo" >
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="products.html">Products</a>            
+            <a href="blogs.html">Blogs</a>               
+            <a href="contact.html">Contact</a>                
+            <a href="about.html">About</a>
+        </nav>
+        <div class="icons">
+           
+            <div class="fas fa-bars" id="menu-btn"></div>
+           
+            <div class="fas fa-search" id="search-btn"></div>
+        </div>
+      
+        <div class="search-form" id="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    
+    <section class="blogs" id="blogs">
+       <h1 class="heading">Our<span>blogs</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="blog/toasted.jpg" alt="toasted">
+                </div>
+                <div class="content">
+                    <a href="#" class="title" > 10 Delicious Coconut Snacks to Satisfy Your Cravings</a>
+                    <span>by admin/12th april 2024 </span>
+                    <p>Are you a fan of the tropical flavor and crunchy texture of coconut? If so, you're in for a treat! Coconut snacks offer a delightful combination of sweetness, nuttiness, and satisfying crunch that can satisfy your cravings any time of day. Here are 10 delicious coconut snacks to tantalize your taste buds.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="blog/coconut-chips.jpg" alt="coconut-chips">
+                </div>
+                <div class="content">
+                    <a href="#" class="title" > Crunchy Coconut Chips: A Taste of Tropical Paradise</a>
+                    <span>by admin/12th april 2024 </span>
+                    <p>If you're looking for a snack that's both delicious and nutritious, look no further than crunchy coconut chips. These delightful treats offer a taste of tropical paradise in every bite, with their crispy texture and irresistible coconut flavor. Let's dive deeper into what makes coconut chips so special and why they're the perfect snack for any occasion.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="blog/skincare.webp" alt="skincare">
+                </div>
+                <div class="content">
+                    <a href="#" class="title" > Embrace Radiant Skin with Coconut-Based Skincare</a>
+                    <span>by admin/12th april 2024 </span>
+                    <p>Unlock the secret to glowing, radiant skin with the power of coconut-based skincare. Harnessing the natural benefits of coconut oil, coconut water, and coconut extracts, these skincare products offer a luxurious and nourishing experience that leaves your skin feeling hydrated, refreshed, and rejuvenated. Let's explore the wonders of coconut-based skincare and discover the transformative effects it can have on your complexion.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <script>
+        let navbar = document.querySelector('.navbar');
+        let menuBtn = document.querySelector('#menu-btn');
+        menuBtn.addEventListener('click', function() {
+            navbar.classList.toggle('active');
+        });
+    
+        let searchForm = document.querySelector('.search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        searchBtn.addEventListener('click', function() {
+            searchForm.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
