@@ -271,7 +271,7 @@ header .navbar .btn {
 {
     background-color: var(--main-color);
     color: #fff;
-    border: 0.1rem solid #fff;
+    
 }
 
 .btn-products:hover
