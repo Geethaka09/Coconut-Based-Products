@@ -157,6 +157,16 @@ body {
     padding-left: 2rem;
     
 }
+.home .content h6{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fff;
+    display: inline;
+    white-space: nowrap;
+    padding-left: 2rem;
+    
+}
 .home .content p {
     font-size: 1.5rem;
     font-weight: lighter;
