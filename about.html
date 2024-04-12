@@ -65,5 +65,18 @@
 
 
     </section>
+    <script>
+        let navbar = document.querySelector('.navbar');
+        let menuBtn = document.querySelector('#menu-btn');
+        menuBtn.addEventListener('click', function() {
+            navbar.classList.toggle('active');
+        });
+    
+        let searchForm = document.querySelector('.search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        searchBtn.addEventListener('click', function() {
+            searchForm.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
