@@ -81,20 +81,6 @@ body {
     display: flex;
     opacity: 1;
 }
-.header .navbar a.btn {
-    display: inline-block;
-    margin: 0 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 1.6rem;
-    color: #fff;
-    text-decoration: none;
-}
-
-.header .navbar a.btn:hover {
-    color: var(--main-color);
-    border-bottom: 0.1rem solid var(--main-color);
-    padding-bottom: 0.5rem;
-}
 .header .icons div:hover{
     color:var(--main-color);
 }
