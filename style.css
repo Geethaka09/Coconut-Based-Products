@@ -267,19 +267,23 @@ header .navbar .btn {
 
 
 
-.btn-products
-{
+.btn-products {
     background-color: var(--main-color);
     color: #fff;
-    
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
 }
 
-.btn-products:hover
- {
+.btn-products:hover {
     background-color: #fff;
     color: var(--black);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
-
 
 
 
