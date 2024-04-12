@@ -81,20 +81,21 @@ body {
     display: flex;
     opacity: 1;
 }
-.header .navbar .btn {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: var(--main-color);
+.btn-products,
+.btn-blogs,
+.btn-contact,
+.btn-about {
+    background-color: transparent;
     color: #fff;
-    text-decoration: none;
-    font-size: 1.6rem;
-    border-radius: 0.2rem;
-    transition: background-color 0.3s ease;
+    border: 0.1rem solid #fff;
 }
 
-.header .navbar .btn:hover {
-    background-color: var(--black);
-    color: var(--main-color);
+.btn-products:hover,
+.btn-blogs:hover,
+.btn-contact:hover,
+.btn-about:hover {
+    background-color: #fff;
+    color: var(--black);
 }
 .header .icons div:hover{
     color:var(--main-color);
