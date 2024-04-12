@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURECOCO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="purecoco.png" alt="PURECOCO Logo" >
+        </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="products.html">Products</a>            
+            <a href="blogs.html">Blogs</a>               
+            <a href="contact.html">Contact</a>                
+            <a href="about.html">About</a>
+        </nav>
+        <div class="icons">
+           
+            <div class="fas fa-bars" id="menu-btn"></div>
+           
+            <div class="fas fa-search" id="search-btn"></div>
+        </div>
+      
+        <div class="search-form" id="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    
+    <section class="contact" id="contact">
+       
+
+    </section>
+    <script>
+        let navbar = document.querySelector('.navbar');
+        let menuBtn = document.querySelector('#menu-btn');
+        menuBtn.addEventListener('click', function() {
+            navbar.classList.toggle('active');
+        });
+    
+        let searchForm = document.querySelector('.search-form');
+        let searchBtn = document.querySelector('#search-btn');
+        searchBtn.addEventListener('click', function() {
+            searchForm.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
