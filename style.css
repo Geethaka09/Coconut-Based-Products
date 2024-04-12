@@ -148,6 +148,7 @@ body {
     text-align: center;
 }
 .home .content h3{
+    align-items: center;
     font-size: 5rem;
     text-transform: uppercase;
     font-weight: bold;
