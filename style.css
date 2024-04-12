@@ -85,16 +85,15 @@ body {
 .btn-blogs,
 .btn-contact,
 .btn-about {
-    background-color: transparent;
+   
     color: #fff;
-    border: 0.1rem solid #fff;
 }
 
 .btn-products:hover,
 .btn-blogs:hover,
 .btn-contact:hover,
 .btn-about:hover {
-    background-color: #fff;
+    background-color: transparent;
     color: var(--black);
 }
 .header .icons div:hover{
