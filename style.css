@@ -267,7 +267,18 @@ header .navbar .btn {
 
 
 
+.btn-products
+{
+    background-color: transparent;
+    color: #fff;
+    border: 0.1rem solid #fff;
+}
 
+.btn-products:hover
+ {
+    background-color: #fff;
+    color: var(--black);
+}
 
 
 
