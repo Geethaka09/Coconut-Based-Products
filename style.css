@@ -239,13 +239,30 @@ header .navbar .btn {
     
 }
 
-
-
-
-
-
-
-
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+.products .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+.products .box-container .box img{
+    height: 10rem;
+}
+.products .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.products .box-container .box:hover{
+    background-color: #fff;
+}
+.products .box-container .box:hover > *{
+    color:var(--black);
+}
 
 
 
