@@ -135,22 +135,28 @@
             searchForm.classList.toggle('active');
         });
         document.addEventListener("DOMContentLoaded", function() {
-    var oilBtn = document.querySelector('a[href="#oil"]');
-    var waterBtn = document.querySelector('a[href="#water"]');
-    var oilSection = document.getElementById("oil");
-    var waterSection = document.getElementById("water");
+  var oilBtn = document.querySelector('a[href="#oil"]');
+  var waterBtn = document.querySelector('a[href="#water"]');
+  var oilSection = document.getElementById("oil");
+  var waterSection = document.getElementById("water");
 
-    oilBtn.addEventListener("click", function(e) {
-        e.preventDefault();
-        oilSection.classList.toggle("show");
-        waterSection.classList.remove("show");
-    });
+  oilBtn.addEventListener("click", function(e) {
+    e.preventDefault();
+    oilSection.classList.toggle("show");
+    waterSection.classList.remove("show");
 
-    waterBtn.addEventListener("click", function(e) {
-        e.preventDefault();
-        waterSection.classList.toggle("show");
-        oilSection.classList.remove("show");
-    });
+    // Scroll to the oil section
+    oilSection.scrollIntoView({ behavior: "smooth" });
+  });
+
+  waterBtn.addEventListener("click", function(e) {
+    e.preventDefault();
+    waterSection.classList.toggle("show");
+    oilSection.classList.remove("show");
+
+    // Scroll to the water section
+    waterSection.scrollIntoView({ behavior: "smooth" });
+  });
 });
        
     </script>
