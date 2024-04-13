@@ -135,15 +135,23 @@
             searchForm.classList.toggle('active');
         });
         document.addEventListener("DOMContentLoaded", function() {
-            const readMoreButton = document.querySelector(".btn-readmore");
-            const detailsSection = document.querySelector("#details-section");
+    var oilBtn = document.querySelector('a[href="#oil"]');
+    var waterBtn = document.querySelector('a[href="#water"]');
+    var oilSection = document.getElementById("oil");
+    var waterSection = document.getElementById("water");
 
-         readMoreButton.addEventListener("click", function(event) {
-                event.preventDefault();
-                detailsSection.classList.toggle("show");
-                detailsSection.scrollIntoView({ behavior: "smooth" });
-            });
-        });
+    oilBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        oilSection.classList.toggle("show");
+        waterSection.classList.remove("show");
+    });
+
+    waterBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        waterSection.classList.toggle("show");
+        oilSection.classList.remove("show");
+    });
+});
        
     </script>
 </body>
