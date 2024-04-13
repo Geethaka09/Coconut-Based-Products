@@ -273,48 +273,7 @@ header .navbar .btn {
 .products .box-container .box:hover > *{
     color:var(--black);
 }
-.details-box {
-    display: none;
-    padding: 2rem;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-.details-box.show {
-    display: block;
-}
-
-.details-box h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #333;
-}
-
-.details-box p {
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-}
-
-.details-box h3 {
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: #555;
-}
-
-.details-box .conclusion {
-    font-weight: bold;
-}
-
-.details-box a {
-    color: #337ab7;
-    text-decoration: none;
-}
-
-.details-box a:hover {
-    text-decoration: underline;
-}
 
 .btn {
     background-color: var(--main-color);
