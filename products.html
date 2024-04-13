@@ -145,7 +145,14 @@
                 waterSection.scrollIntoView({ behavior: "smooth" });
             });
         });
-       
+        $(document).ready(function() {
+        $(".btn-readmore").click(function() {
+            $("html, body").animate({
+            scrollTop: $(".details-box").offset().top
+            }, 800); // Adjust the animation speed as desired
+        });
+        });
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
