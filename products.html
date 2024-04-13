@@ -124,6 +124,15 @@
                 detailsSection.scrollIntoView({ behavior: "smooth" });
             });
         });
+        document.addEventListener("DOMContentLoaded", function() {
+            const readMoreButton = document.querySelector(".btn-readmore");
+            const oilSection = document.querySelector("#oil");
+
+        readMoreButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            oilSection.scrollIntoView({ behavior: "smooth" });
+            });
+        });
     </script>
 </body>
 </html>
