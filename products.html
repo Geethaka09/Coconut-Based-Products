@@ -114,6 +114,16 @@
         searchBtn.addEventListener('click', function() {
             searchForm.classList.toggle('active');
         });
+        document.addEventListener("DOMContentLoaded", function() {
+            const readMoreButton = document.querySelector(".btn-readmore");
+            const detailsSection = document.querySelector("#details-section");
+
+         readMoreButton.addEventListener("click", function(event) {
+                event.preventDefault();
+                detailsSection.classList.toggle("show");
+                detailsSection.scrollIntoView({ behavior: "smooth" });
+            });
+        });
     </script>
 </body>
 </html>
