@@ -48,7 +48,7 @@
             <div class="box">
                 <img src="product/coconut_water.jpeg" alt="coconut water">
                 <h3>coconut Water</h3>
-                <a href="#water" class="btn">Read More</a>
+                <a href="#water" class="btn btn-readmore">Read More</a>
             </div>
             <div class="box">
                 <img src="product/snacks.webp" alt="coconut snacks">
@@ -69,7 +69,7 @@
     </section>
     <section class="details" id="details-section">
         <div id="oil" class="details-box">
-            <div>
+           
                 <h2>Coconut Oil: Nature's Versatile Treasure</h2>
                 <p>Source: Extracted from mature coconuts, coconut oil is a rich source of medium-chain fatty acids like lauric acid, known for their potential health benefits.</p>
                 <h3>Types:</h3>
@@ -81,11 +81,11 @@
                 <h3>Storage:</h3>
                 <p>Solid at room temperature, coconut oil should be stored in a cool, dark place to preserve its quality.</p>
                 <p class="conclusion">Whether in the kitchen or your beauty routine, coconut oil is a trusted companion for a natural, nourishing lifestyle.</p>
-            </div>
+            
         </div>
       
         <div id="water" class="details-box">
-            <div>
+            
                 <h2>Coconut Water: Nature's Refreshing Elixir</h2>
                 <p>Source: Found inside young, green coconuts, coconut water is the clear liquid that naturally occurs as the fruit matures.</p>
                 <h3>Composition:</h3>
@@ -102,7 +102,7 @@
                 <p>Fresh coconut water should be consumed promptly or refrigerated to maintain its freshness. It can also be frozen into ice cubes for later use.</p>
                 <h3>Sustainability:</h3>
                 <p>Harvesting coconut water does not harm the coconut tree, as it is naturally replenished by the tree's growthTo display the "Coconut Oil" and "Coconut Water" sections separately in boxes, you can modify the HTML and CSS code as follows:</p>
-            </div>
+            
         </div>
     </section>
     <section class="footer">
@@ -135,17 +135,16 @@
             searchForm.classList.toggle('active');
         });
         document.addEventListener("DOMContentLoaded", function() {
-            var oilBtn = document.querySelector('a[href="#oil"]');
-            var waterBtn = document.querySelector('a[href="#water"]');
-            var oilSection = document.getElementById("oil");
-            var waterSection = document.getElementById("water");
+            const readMoreButton = document.querySelector(".btn-readmore");
+            const oilSection = document.querySelector("#oil");
+            const waterSection = document.querySelector("#water");
 
-            oilBtn.addEventListener("click", function(e) {
-                e.preventDefault();
-                oilSection.classList.toggle("show");
-                waterSection.classList.remove("show");
+            readMoreButton.addEventListener("click", function(event) {
+                event.preventDefault();
                 oilSection.scrollIntoView({ behavior: "smooth" });
+                waterSection.scrollIntoView({ behavior: "smooth" });
             });
+        });
        
     </script>
 </body>
