@@ -413,7 +413,7 @@ header .navbar .btn {
 
 }
 .footer .links a{
-    padding: 2rem 1.5rem;
+    padding: 1rem 0.5rem;
     color: #fff;
     border: var(--border);
     font-size: 2rem;
