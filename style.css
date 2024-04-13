@@ -260,7 +260,9 @@ header .navbar .btn {
     border: var(--border);
 }
 .products .box-container .box img{
+
     height: 10rem;
+    width: 10rem;
 }
 .products .box-container .box h3{
     color: #fff;
