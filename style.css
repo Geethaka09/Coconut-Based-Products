@@ -288,24 +288,26 @@ header .navbar .btn {
 }
 
 .details h2 {
-    font-size: 2rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
     color: #333;
 }
 
 .details p {
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
     line-height: 1.6;
 }
 
 .details h3 {
-    font-size: 1.5rem;
+    font-size: 2,5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: #555;
 }
 
 .details .conclusion {
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
