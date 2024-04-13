@@ -42,13 +42,13 @@
                 <div class="box">
                     <img src="product/coconut_oil.webp" alt="coconut oil">
                     <h3>coconut oil</h3>
-                    <a href="#oil" class="btn btn-readmore">Read More</a>
+                    <a href="#oil" class="btn btn-readmore-oil">Read More</a>
                 </div>
                    
             <div class="box">
                 <img src="product/coconut_water.jpeg" alt="coconut water">
                 <h3>coconut Water</h3>
-                <a href="#water" class="btn btn-readmore">Read More</a>
+                <a href="#water" class="btn btn-readmore-water">Read More</a>
             </div>
             <div class="box">
                 <img src="product/snacks.webp" alt="coconut snacks">
@@ -135,24 +135,23 @@
             searchForm.classList.toggle('active');
         });
         document.addEventListener("DOMContentLoaded", function() {
-            const readMoreButton = document.querySelector(".btn-readmore");
+            const readMoreoilButton = document.querySelector(".btn-readmore-oil");
+            const readMorewaterButton = document.querySelector(".btn-readmore-water");
             const oilSection = document.querySelector("#oil");
             const waterSection = document.querySelector("#water");
 
-            readMoreButton.addEventListener("click", function(event) {
-                event.preventDefault();
-                oilSection.scrollIntoView({ behavior: "smooth" });
-                waterSection.scrollIntoView({ behavior: "smooth" });
-            });
+        readMoreoilButton.addEventListener("click", function(event) {
+            event.preventDefault();
+           
+            oilSection.scrollIntoView({ behavior: "smooth" });
         });
-        $(document).ready(function() {
-        $(".btn-readmore").click(function() {
-            $("html, body").animate({
-            scrollTop: $(".details-box").offset().top
-            }, 800); // Adjust the animation speed as desired
+        readMorewaterButton.addEventListener("click", function(event) {
+            event.preventDefault();
+            
+            waterSection.scrollIntoView({ behavior: "smooth" });
         });
-        });
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       
+        
+    
 </body>
 </html>
