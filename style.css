@@ -451,21 +451,21 @@ header .navbar .btn {
         padding: 2rem;
     }
 }
-@media (max-width:991px){
+@media (max-width:768px){
     #menu-btn{
         display: inline-block;
     }
     .header .navbar{
         display: inline-flex;
         position: absolute;
-        top:100%; right:-100%;
+        top:100%; right: 0;
         background: #fff;
         width: 30rem;
         height: calc(100vh - 9.5rem);
     }
     .header .navbar .active{
-        display: block;
-        right: 0%;
+        
+        right: 0;
     }
     .header .navbar a{
         color: var(--black);
@@ -492,4 +492,17 @@ header .navbar .btn {
         font-size: 2rem;
         text-align: center;
      }
+}
+
+@media (max-width:450px){
+    html{
+        font-size:55%;
+         
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
 }
